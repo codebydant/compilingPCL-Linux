@@ -91,13 +91,12 @@ $ cd build/
 $ cmake ../src/
 ```
 <img src="./examples/sample1.png" align="center" height="400" width="900"><br>
-<img src="./examples/sample2.png" align="center" height="400" width="900"><br>
 
 7. Compile sample code:
 ```
 $ make
 ```
-<img src="./examples/sample3.png" align="center" height="400" width="900"><br>
+<img src="./examples/sample2.png" align="center" height="400" width="900"><br>
 
 7. Download .pcd sample file: [PCD file](https://drive.google.com/drive/folders/1sW4oqcaKPsupEaSFkoGAgdHjv6ydwUFF?usp=sharing)
 8. Test bin file
@@ -105,6 +104,9 @@ $ make
 $ cd bin/
 $ ./pcl-visualizer <.pcd file>
 ```
+<img src="./examples/sample3.png" align="center" height="400" width="900"><br>
+
+## Result
 <img src="./examples/sample4.png" align="center" height="400" width="900"><br>
 
 ## Troubleshooting 
