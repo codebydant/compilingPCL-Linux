@@ -1,5 +1,5 @@
 # Compile PCL 1.11.1 - Ubuntu 20.04.2 LTS
-This is a tutorial of how to compile PCL 1.11.1 on Ubuntu 20.04.2 LTS
+This is a tutorial of how to compile PCL 1.11.1 on Ubuntu 20.04.2 LTS. No need it to install!
 
 Table of contents
 =================
