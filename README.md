@@ -10,8 +10,8 @@ Table of contents
       * [Eigen](#eigen)
       * [FLANN](#Compiling-FLANN)
       * [VTK](#Compiling-vtk)
-   * [Installation](#Compiling-PCL-1.11.1)
-   * [Testing](#Testing-PCL)
+   * [Installation](#Installation)
+   * [Testing](#Test)
 <!--te-->
 
 ## Requirements
@@ -54,7 +54,7 @@ $ sudo make install
 ```
 <img src="./examples/vtk4.png" align="center" height="400" width="900"><br>
 
-## Compiling PCL 1.11.1
+## Installation
 1. Download source code in `/opt`: [PCL](https://github.com/PointCloudLibrary/pcl)
 2. Create a `build` directory
 3. Create build files:
@@ -74,7 +74,7 @@ $ sudo make -j4
 ```
 <img src="./examples/pcl4.png" align="center" height="400" width="900"><br>
 
-## Testing PCL 
+## Test 
 1. Download sample PCL code: [pcl visualizer](https://github.com/danielTobon43/pcl_visualizer)
 2. Create a `build` directory
 3. Set PCL build directory in `CMakeLists.txt` in the `/src` folder, line 20.
