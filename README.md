@@ -43,16 +43,16 @@ $ sudo make install
 $ cd build/
 $ sudo cmake-gui ../
 ```
-<img src="./examples/vtk1.png" align="center" height="450" width="900"><br>
-<img src="./examples/vtk2.png" align="center" height="450" width="900"><br>
-<img src="./examples/vtk3.png" align="center" height="450" width="900"><br>
+<img src="./examples/vtk1.png" align="center" height="450" width="800"><br>
+<img src="./examples/vtk2.png" align="center" height="450" width="800"><br>
+<img src="./examples/vtk3.png" align="center" height="450" width="800"><br>
 
 4. Compile and install VTK:
 ```
 $ sudo make -j4
 $ sudo make install
 ```
-<img src="./examples/vtk4.png" align="center" height="450" width="900"><br>
+<img src="./examples/vtk4.png" align="center" height="450" width="800"><br>
 
 ## Installation
 1. Download source code in `/opt`: [PCL](https://github.com/PointCloudLibrary/pcl)
@@ -64,15 +64,15 @@ $ sudo cmake-gui ../
 ```
 4. Select/Unselect pcl modules
 
-<img src="./examples/pcl1.png" align="center" height="450" width="900"><br>
-<img src="./examples/pcl2.png" align="center" height="450" width="900"><br>
-<img src="./examples/pcl3.png" align="center" height="450" width="900"><br>
+<img src="./examples/pcl1.png" align="center" height="450" width="800"><br>
+<img src="./examples/pcl2.png" align="center" height="450" width="800"><br>
+<img src="./examples/pcl3.png" align="center" height="450" width="800"><br>
 
 6. Compile PCL
 ```
 $ sudo make -j4
 ```
-<img src="./examples/pcl4.png" align="center" height="450" width="900"><br>
+<img src="./examples/pcl4.png" align="center" height="450" width="800"><br>
 
 ## Test 
 1. Download sample PCL code: [pcl visualizer](https://github.com/danielTobon43/pcl_visualizer)
@@ -97,13 +97,13 @@ find_package(PCL 1.9 PATHS ${PCL_DIR} QUIET REQUIRED COMPONENTS common io visual
 $ cd build/
 $ cmake ../src/
 ```
-<img src="./examples/sample1.png" align="center" height="450" width="900"><br>
+<img src="./examples/sample1.png" align="center" height="450" width="800"><br>
 
 7. Compile sample code:
 ```
 $ make
 ```
-<img src="./examples/sample2.png" align="center" height="450" width="900"><br>
+<img src="./examples/sample2.png" align="center" height="450" width="800"><br>
 
 7. Download .pcd sample file: [PCD file](https://drive.google.com/drive/folders/1sW4oqcaKPsupEaSFkoGAgdHjv6ydwUFF?usp=sharing)
 8. Test bin file
@@ -111,10 +111,10 @@ $ make
 $ cd bin/
 $ ./pcl-visualizer <.pcd file>
 ```
-<img src="./examples/sample3.png" align="center" height="450" width="900"><br>
+<img src="./examples/sample3.png" align="center" height="450" width="800"><br>
 
 ## Result
-<img src="./examples/sample4.png" align="center" height="450" width="900"><br>
+<img src="./examples/sample4.png" align="center" height="450" width="800"><br>
 
 ## Troubleshooting 
 - Issue: `Error while loading shared libraries: cannot open shared object file: No such file or directory`
