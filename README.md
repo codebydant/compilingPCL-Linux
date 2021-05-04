@@ -85,17 +85,27 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 ```
 find_package(PCL 1.9 PATHS ${PCL_DIR} QUIET REQUIRED COMPONENTS common io visualization) 
 ```
-6. Compile sample code:
+6. Create build files:
 ```
 $ cd build/
 $ cmake ../src/
+```
+<img src="./examples/sample1.png" align="center" height="400" width="900"><br>
+<img src="./examples/sample2.png" align="center" height="400" width="900"><br>
+
+7. Compile sample code:
+```
 $ make
 ```
-7. Test bin file
+<img src="./examples/sample3.png" align="center" height="400" width="900"><br>
+
+7. Download .pcd sample file: [PCD file](https://drive.google.com/drive/folders/1sW4oqcaKPsupEaSFkoGAgdHjv6ydwUFF?usp=sharing)
+8. Test bin file
 ```
 $ cd bin/
-$ ./pcl-visualizer <file>
+$ ./pcl-visualizer <.pcd file>
 ```
+<img src="./examples/sample4.png" align="center" height="400" width="900"><br>
 
 ## Troubleshooting 
 - Issue: Error while loading shared libraries: cannot open shared object file: No such file or directory
