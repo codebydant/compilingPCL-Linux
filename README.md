@@ -1,6 +1,19 @@
 # Compile PCL 1.11.1 - Ubuntu 20.04.2 LTS
 This is a tutorial of how to compile PCL 1.11.1 on Ubuntu 20.04.2 LTS
 
+Table of contents
+=================
+
+<!--ts-->
+   * [Requirements](#Requirements)
+      * [Boost](#boost)
+      * [Eigen](#eigen)
+      * [FLANN](#Compiling-FLANN)
+      * [VTK](#Compiling-vtk)
+   * [Installation](#Compiling-PCL-1.11.1)
+   * [Testing](#Testing-PCL)
+<!--te-->
+
 ## Requirements
 - Boost: Used for shared pointers, and threading.
 - Eigen: Used as the matrix backend for SSE optimized math
