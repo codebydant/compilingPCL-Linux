@@ -38,6 +38,10 @@ $ sudo cmake-gui ../
 $ sudo make -j4
 $ sudo make install
 ```
+<img src="./examples/vtk1.png" align="center" height="500" width="900"><br>
+<img src="./examples/vtk2.png" align="center" height="500" width="900"><br>
+<img src="./examples/vtk3.png" align="center" height="500" width="900"><br>
+<img src="./examples/vtk4.png" align="center" height="500" width="900"><br>
 
 ## Compiling PCL 1.11.1
 1. Download source code in `/opt`: [PCL](https://github.com/PointCloudLibrary/pcl)
@@ -48,10 +52,14 @@ $ cd build/
 $ sudo cmake-gui ../
 ```
 4. Select/Unselect pcl modules
-5. Compile PCL
+<img src="./examples/pcl1.png" align="center" height="500" width="900"><br>
+<img src="./examples/pcl2.png" align="center" height="500" width="900"><br>
+<img src="./examples/pcl3.png" align="center" height="500" width="900"><br>
+6. Compile PCL
 ```
 $ sudo make -j4
 ```
+<img src="./examples/pcl4.png" align="center" height="500" width="900"><br>
 
 ## Testing PCL 
 1. Download sample PCL code: [pcl visualizer](https://github.com/danielTobon43/pcl_visualizer)
