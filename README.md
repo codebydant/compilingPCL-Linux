@@ -8,19 +8,13 @@ This is a tutorial of how to compile PCL 1.11.1 on Ubuntu 20.04.2 LTS
 - VTK: Used in visualization for 3D point cloud, rendering and visualization.
 
 ## Compiling FLANN
-1. Edit `CMakeLists.txt` on `flann/src/cpp/CMakeLists.txt` and replace line 32 and 86:
+1. Download FLANN source code in `/opt`: [FLANN](https://github.com/flann-lib/flann) 
+2. Edit `CMakeLists.txt` on `flann/src/cpp/CMakeLists.txt` and replace line 32 and 86:
 
 `add_library(flann_cpp SHARED "") -> add_library(flann_cpp SHARED "main.cpp")`
 
-2. Create a `main.cpp` file at the same directory:
-3. set C++11 and 14 standard:
-
-```
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
-set(CMAKE_CXX_STANDARD 14)
-```
-4. Download FLANN source code in `/opt`: [FLANN](https://github.com/flann-lib/flann) 
-5. Compile and install FLANN:
+2. Create a `main.cpp` file at the same directory
+3. Compile and install FLANN:
 ```
 $ cd build/
 $ sudo cmake-gui ../
