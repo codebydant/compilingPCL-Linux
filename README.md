@@ -22,7 +22,7 @@ set(CMAKE_CXX_STANDARD 14)
 4. Download FLANN source code in `/opt`: [FLANN](https://github.com/flann-lib/flann) 
 5. Compile and install FLANN:
 ```
-$ cd /build
+$ cd build/
 $ sudo cmake-gui ../
 $ sudo make -j4
 $ sudo make install
@@ -33,7 +33,7 @@ $ sudo make install
 2. Create a `build` directory
 3. Compile and install VTK:
 ```
-$ cd /build
+$ cd build/
 $ sudo cmake-gui ../
 $ sudo make -j4
 $ sudo make install
@@ -44,7 +44,7 @@ $ sudo make install
 2. Create a `build` directory
 3. Create build files:
 ```
-$ cd /build
+$ cd build/
 $ sudo cmake-gui ../
 ```
 4. Select/Unselect pcl modules
