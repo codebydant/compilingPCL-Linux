@@ -110,5 +110,5 @@ $ ./pcl-visualizer <.pcd file>
 <img src="./examples/sample4.png" align="center" height="400" width="900"><br>
 
 ## Troubleshooting 
-- Issue: Error while loading shared libraries: cannot open shared object file: No such file or directory
+- Issue: `Error while loading shared libraries: cannot open shared object file: No such file or directory`
 - Solution: `$ sudo ldconfig -v`  [ref](https://github.com/CogChameleon/ChromaTag/issues/2)
