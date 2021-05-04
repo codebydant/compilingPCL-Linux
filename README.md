@@ -31,17 +31,21 @@ $ sudo make install
 ## Compiling VTK
 1. Download VTK 8.1/8.2 source code in `/opt`: [VTK](https://github.com/Kitware/VTK)
 2. Create a `build` directory
-3. Compile and install VTK:
+3. Run CMake-gui:
 ```
 $ cd build/
 $ sudo cmake-gui ../
+```
+<img src="./examples/vtk1.png" align="center" height="400" width="900"><br>
+<img src="./examples/vtk2.png" align="center" height="400" width="900"><br>
+<img src="./examples/vtk3.png" align="center" height="400" width="900"><br>
+
+4. Compile and install VTK:
+```
 $ sudo make -j4
 $ sudo make install
 ```
-<img src="./examples/vtk1.png" align="center" height="500" width="900"><br>
-<img src="./examples/vtk2.png" align="center" height="500" width="900"><br>
-<img src="./examples/vtk3.png" align="center" height="500" width="900"><br>
-<img src="./examples/vtk4.png" align="center" height="500" width="900"><br>
+<img src="./examples/vtk4.png" align="center" height="400" width="900"><br>
 
 ## Compiling PCL 1.11.1
 1. Download source code in `/opt`: [PCL](https://github.com/PointCloudLibrary/pcl)
@@ -52,14 +56,16 @@ $ cd build/
 $ sudo cmake-gui ../
 ```
 4. Select/Unselect pcl modules
-<img src="./examples/pcl1.png" align="center" height="500" width="900"><br>
-<img src="./examples/pcl2.png" align="center" height="500" width="900"><br>
-<img src="./examples/pcl3.png" align="center" height="500" width="900"><br>
+
+<img src="./examples/pcl1.png" align="center" height="400" width="900"><br>
+<img src="./examples/pcl2.png" align="center" height="400" width="900"><br>
+<img src="./examples/pcl3.png" align="center" height="400" width="900"><br>
+
 6. Compile PCL
 ```
 $ sudo make -j4
 ```
-<img src="./examples/pcl4.png" align="center" height="500" width="900"><br>
+<img src="./examples/pcl4.png" align="center" height="400" width="900"><br>
 
 ## Testing PCL 
 1. Download sample PCL code: [pcl visualizer](https://github.com/danielTobon43/pcl_visualizer)
