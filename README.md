@@ -1,5 +1,5 @@
 # Compile PCL 1.11.1 - Ubuntu 20.04.2 LTS
-This is a tutorial of how to compile and use PCL 1.11.1 on Ubuntu 20.04.2 LTS. No need it to install!
+This is a tutorial of how to compile and use Point Cloud Library (PCL) version 1.11.1 on Ubuntu 20.04.2 LTS. No need it to install!
 
 Table of contents
 =================
