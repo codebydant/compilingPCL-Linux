@@ -21,6 +21,7 @@ Table of contents
 - VTK: Used in visualization for 3D point cloud, rendering and visualization.
 
 ## Compiling FLANN
+Use the `master` version of flann from the repo instead of an official released.
 1. Download FLANN source code in `/opt`: [FLANN](https://github.com/flann-lib/flann) 
 2. Edit `CMakeLists.txt` on `flann/src/cpp/CMakeLists.txt` and replace line 32 and 86:
 
@@ -119,3 +120,6 @@ $ ./pcl-visualizer <.pcd file>
 ## Troubleshooting 
 - Issue: `Error while loading shared libraries: cannot open shared object file: No such file or directory`
 - Solution: `$ sudo ldconfig -v`  [ref](https://github.com/CogChameleon/ChromaTag/issues/2)
+
+- Issue: `undefined reference to 'LZ4_decompress_safe'`
+- Solution: Use the `master` version of flann from the official repository
