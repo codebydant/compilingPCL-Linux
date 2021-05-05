@@ -123,3 +123,6 @@ $ ./pcl-visualizer <.pcd file>
 
 - Issue: `undefined reference to 'LZ4_decompress_safe'`
 - Solution: Use the `master` version of flann from the official repository
+
+- Issue: `error: ‘Octree2BufBase’ does not name a type pcl`
+- Solution: Instead of PCL 1.11.1 released use PCL 1.9.1
